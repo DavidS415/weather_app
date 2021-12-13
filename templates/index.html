@@ -1,0 +1,20 @@
+<!doctype html>
+<title>Hello from Flask</title>
+{% if weather %}
+  <h1>The weather in your area is:</h1>
+  <p>{{ weather }}</p>
+{% else %}
+  <h1>I can not locate your weather, please try again later!</h1>
+{% endif %}
+
+{% if weather2 %}
+  <p>{{ weather2 }}</p>
+{% else %}
+  <h1>I can not locate your weather, please try again later!</h1>
+{% endif %}
+
+{% if weather3 %}
+  <p>{{ weather3 }}</p>
+{% else %}
+  <h1>I can not locate your weather, please try again later!</h1>
+{% endif %}
