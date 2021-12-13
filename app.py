@@ -10,7 +10,7 @@ def index():
     #ip_address = flask.request.remote_addr
     #location = requests.get("https://api.freegeoip.app/json/" + ip_address + "?apikey=de269640-5adf-11ec-9d7c-599c15729565")
     
-    location = requests.get("https://api.freegeoip.app/json/76.226.167.228?apikey=de269640-5adf-11ec-9d7c-599c15729565")
+    location = requests.get("https://api.freegeoip.app/json/0.0.0.0?apikey=de269640-5adf-11ec-9d7c-599c15729565")
 
     data = location.text
     formated_data = json.loads(data)
